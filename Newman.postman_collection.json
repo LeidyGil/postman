@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "eb9376d6-3024-d298-e1d6-dac3b6d9e4a8",
+		"name": "Newman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Poat-UserIDCheck",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"User ID is 1 -> \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[0].userId).to.eql(1);",
+							"});",
+							"",
+							"//pm.test(\"Body is correct\", function () {",
+							"//    pm.response.to.have.body(\"title\");",
+							"//});",
+							"",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				},
+				"description": "This is a dummy one"
+			},
+			"response": []
+		},
+		{
+			"name": "Poat-UserIDCheck copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"User ID is 1 -> \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[0].userId).to.eql(1);",
+							"});",
+							"",
+							"//pm.test(\"Body is correct\", function () {",
+							"//    pm.response.to.have.body(\"title\");",
+							"//});",
+							"",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				},
+				"description": "This is a dummy one"
+			},
+			"response": []
+		},
+		{
+			"name": "Poat-UserIDCheck copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"User ID is 1 -> \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[0].userId).to.eql(1);",
+							"});",
+							"",
+							"//pm.test(\"Body is correct\", function () {",
+							"//    pm.response.to.have.body(\"title\");",
+							"//});",
+							"",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				},
+				"description": "This is a dummy one"
+			},
+			"response": []
+		},
+		{
+			"name": "Poat-UserIDCheck copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"User ID is 1 -> \", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[0].userId).to.eql(1);",
+							"});",
+							"",
+							"//pm.test(\"Body is correct\", function () {",
+							"//    pm.response.to.have.body(\"title\");",
+							"//});",
+							"",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					]
+				},
+				"description": "This is a dummy one"
+			},
+			"response": []
+		}
+	]
+}
